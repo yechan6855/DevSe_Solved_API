@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38a31bcb-15b9-4b9a-ad27-d09a128c11f6" name="변경" comment="" />
+    <list default="true" id="38a31bcb-15b9-4b9a-ad27-d09a128c11f6" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/checkSolve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infoProblem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userTier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -31,25 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.checkSolve.executor": "Run",
-    "Python.infoProblem.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.userSolve.executor": "Run",
-    "Python.userTier.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.checkSolve.executor&quot;: &quot;Run&quot;,
+    &quot;Python.infoProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.userInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.userSolve.executor&quot;: &quot;Run&quot;,
+    &quot;Python.userTier.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,7 +76,11 @@
       <workItem from="1725719810012" duration="2198000" />
       <workItem from="1725722459073" duration="668000" />
       <workItem from="1725773411547" duration="1603000" />
-      <workItem from="1725805604307" duration="2992000" />
+      <workItem from="1725805604307" duration="3620000" />
+      <workItem from="1725810899524" duration="22000" />
+      <workItem from="1725810923865" duration="73000" />
+      <workItem from="1725811005515" duration="4066000" />
+      <workItem from="1725895045408" duration="187000" />
     </task>
     <servers />
   </component>
@@ -79,7 +91,8 @@
     <SUITE FILE_PATH="coverage/solvedAPI$main.coverage" NAME="userTier 커버리지 결과" MODIFIED="1725721886260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/solvedAPI$infoProblem.coverage" NAME="infoProblem 커버리지 결과" MODIFIED="1725805866252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/solvedAPI$checkSolve.coverage" NAME="checkSolve 커버리지 결과" MODIFIED="1725806311331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/solvedAPI$userTier.coverage" NAME="userTier 커버리지 결과" MODIFIED="1725805618564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/solvedAPI$userTier.coverage" NAME="userTier 커버리지 결과" MODIFIED="1725843677802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/solvedAPI$userInfo.coverage" NAME="userInfo 커버리지 결과" MODIFIED="1725845048121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/solvedAPI$userSolve.coverage" NAME="userSolve 커버리지 결과" MODIFIED="1725805628040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
