@@ -1,6 +1,6 @@
 # SolvedAC API
 
-DevSe Web-Site 알고리즘 페이지 제작에 활용하기 위해 아래 링크를 참고했습니다.
+본 프로젝트는 DevSe Web 프로젝트에 활용하기 위해 아래 문서를 참고하여 작성되었습니다.
 
 https://solvedac.github.io/unofficial-documentation/#/
 
